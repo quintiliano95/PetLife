@@ -5,18 +5,22 @@
     <title>PetLife</title>
     <meta name="description" content="Garanta uma vida longa e cheia de alegria para seu melhor amigo.">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <a href="index.html"></a>
-        <img src="imagens/logo.svg" alt="PetLife">
+        <div>
+            <a href="index.html"><img src="imagens/logo-white.svg" alt="PetLife"></a>
+        </div>
         <nav>
             <a href="#inicio">Início</a>
             <a href="#clinica">Clínica</a>
             <a href="#farmacia">Farmácia</a>
             <a href="#duvidas">Dúvidas</a>
-            <a href="contato.html">Contato</a>
         </nav>
     </header>
     <main>
@@ -25,19 +29,20 @@
 
             <div>
                 <h2>Garanta uma vida longa e cheia de alegria para seu melhor amigo.</h2>
-                <p>A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
+                <p class="paragrafo">A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
                     e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
                     a saúde e a felicidade dos seus animais de estimação.</p>
-                <a href="https://wa.me/5541992617883" target="_blank">Marque uma consulta</a>
-                <a href="#clinica" target="_blank">Conheça nossa clínica</a>
+                <a class="botao" href="https://wa.me/5541992617883" target="_blank">Marque uma consulta</a>
+                <a class="botao-transparente" href="#clinica" target="_blank">Conheça nossa clínica</a>
             </div>
+            <img class="absoluto" src="imagens/shape.svg" alt="">
         </section>
 
         <section id="clinica">
+            <img src="imagens/clinic-img.svg" alt="Logo Clínica" width="480" height="480">
             <div>
-                <img src="imagens/clinic-img.svg" alt="Logo Clínica" width="480" height="480">
-                <h2>Cuidado veterinário de qualidade</h2>
-                <p>A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
+                <h2>Cuidado Veterinário de Qualidade</h2>
+                <p class="paragrafo">A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
                     e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
                     a saúde e a felicidade dos seus animais de estimação.</p>
                 <ul>
@@ -49,40 +54,38 @@
         </section>
 
         <section id="farmacia">
+            <img src="imagens/shop-img.svg" width="645" height="430" loading="lazy">
             <div>
                 <h2>Venha conferir o nosso petshop e farmácia</h2>
-                <img src="imagens/shop-img.svg" width="645" height="430" loading="lazy">
-                <p>A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
+                <p class="paragrafo">A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
                     e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
                     a saúde e a felicidade dos seus animais de estimação.</p>
             </div>
         </section>
 
         <section id="duvidas">
+            <img src="imagens/faq-img.svg" width="540" height="540" loading="lazy">
             <div>
                 <h2>Ficou com alguma dúvida?</h2>
-                <img src="imagens/faq-img.svg" width="540" height="540" loading="lazy">
-                <p>A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
-                    e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
-                    a saúde e a felicidade dos seus animais de estimação.</p>
-                <div>
+
+                <div class="duvida" class="duvida">
                     <h3>Quais são os serviços oferecidos pela clínica PetLife?</h3>
                     <img src="imagens/arrow-down.svg" alt="" width="17" height="10">
-                    <p> PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
+                    <p class="paragrafo"> PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
                     e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
                     a saúde e a felicidade dos seus animais de estimação.</p>
                 </div>
-                <div>
+                <div class="duvida">
                     <h3>Quais são os serviços oferecidos pela clínica PetLife?</h3>
                     <img src="imagens/arrow-down.svg" alt="" width="17" height="10">
-                    <p> PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
+                    <p class="paragrafo"> PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
                     e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
                     a saúde e a felicidade dos seus animais de estimação.</p>
                 </div>
-                <div>
+                <div class="duvida">
                     <h3>Quais são os serviços oferecidos pela clínica PetLife?</h3>
                     <img src="imagens/arrow-down.svg" alt="" width="17" height="10">
-                    <p> PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
+                    <p class="paragrafo"> PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados
                     e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar,
                     a saúde e a felicidade dos seus animais de estimação.</p>
                 </div>
@@ -92,11 +95,11 @@
     <footer>
         <div>
             <img src="imagens/logo.svg" alt="PetLife">
-            <p>Cuidado com amor, vivendo com alegria.</p>
+            <p class="paragrafo">Cuidado com amor, vivendo com alegria.</p>
         </div>
 
         <div>
-            <strong>Links Rápidos</strong>
+            <strong class="titulo">Links Rápidos</strong>
             <nav>
                 <a href="#inicio">Início</a>
                 <a href="#clinica">Clínica</a>
@@ -107,13 +110,13 @@
         </div>
 
         <div>
-            <strong>Encontre-nos</strong>
+            <strong class="titulo">Encontre-nos</strong>
             <p>WhatsApp: <a href="https://wa.me/5541992617883" target="_blank">(41) 99999-9999</a></p>
             <p>E-mail: <a href="mailto:contato@petlife.com">pipipipi@popopo.com</a></p>
             <p>Endereço: Rua pipipi popopó, 111</p>
         </div>
     </footer>
-    <div>
+    <div id="copyright">
         Desenvolvido por <a href="https://github.com/quintiliano95" target="_blank">Alexandre Quintiliano</a>
     </div>
 </body>
