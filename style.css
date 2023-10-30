@@ -131,6 +131,7 @@ footer {
     display: flex;
     gap: 80px;
     padding: 64px 80px;
+    justify-content: space-between;
 }
 
 footer img, footer .titulo {
@@ -143,13 +144,12 @@ footer nav a {
     color: #263138;
     display: block;
     margin-bottom: 16px;
-    text-decoration: none;
-    max-width: 350px;
 }
 
 footer p a {
     color: cornflowerblue;
     text-decoration: none;
+    max-width: 350px;
 }
 
 #copyright {
